@@ -341,3 +341,19 @@ const myObject = JSON.parse(myJason);
 console.log(myObject);
 console.log(myObject.name);
 console.log(typeof myObject);
+
+// JSON invalido
+
+const badJason = `{"name": Mateus, "age": 31}`;
+
+//const myBadObjects = JSON.parse(badJason);
+
+myObject.isOpenToWork = true;
+
+console.log(myObject);
+
+const myNewJson = JSON.stringify(myObject);
+
+console.log(myNewJson);
+
+console.log(typeof myNewJson);
